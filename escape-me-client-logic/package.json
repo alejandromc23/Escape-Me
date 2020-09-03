@@ -1,0 +1,28 @@
+{
+  "name": "escape-me-client-logic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha *.spec.js",
+    "test:debug": "npx mocha debug *.spec.js",
+    "test:coverage": "npx nyc --reporter=text --reporter=lcov npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "escape-me-data": "file:../escape-me-data",
+    "escape-me-node-commons": "file:../escape-me-node-commons",
+    "mocha": "^7.2.0",
+    "not-async-storage": "^1.0.1",
+    "nyc": "^15.1.0",
+    "xhr2": "^0.2.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.10.3",
+    "escape-me-commons": "file:../escape-me-commons"
+  }
+}

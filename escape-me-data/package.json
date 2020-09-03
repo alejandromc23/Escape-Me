@@ -1,0 +1,15 @@
+{
+  "name": "escape-me-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "escape-me-commons": "file:../escape-me-commons",
+    "mongoose": "^5.9.18"
+  }
+}

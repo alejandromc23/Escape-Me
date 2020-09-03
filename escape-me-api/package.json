@@ -1,0 +1,25 @@
+{
+  "name": "escape-me-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "watch": "npx nodemon --ignore ./data .",
+    "debug": "node debug ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "escape-me-commons": "file:../escape-me-commons",
+    "escape-me-data": "file:../escape-me-data",
+    "escape-me-node-commons": "file:../escape-me-node-commons",
+    "escape-me-server-logic": "file:../escape-me-server-logic",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
